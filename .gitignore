@@ -1,0 +1,5 @@
+project/project
+project/target
+target
+*.sublime-*
+*.DS_Store
