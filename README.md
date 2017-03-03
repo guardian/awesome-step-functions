@@ -4,6 +4,14 @@ Demo code for the membership team's spike into step functions.
 
 **Note:** The word 'awesome' in the name refers to the Awesome Product team, not the awesomeness of the code, which, as Roberto pointed out, probably wouldn't justify that title 🐰.
 
+## Install and Run
+
+Fire up `sbt` and type `run`.
+
+There are two different apps included in this repo, so you will need to launch both of them separately. `sbt` figures this out and asks you which one you'd like to run. Launch the worker first and the supplier second (to avoid timeout issues).
+
+You can see the result of the executions you create by looking at `SimplesWorkerOne` in the developer playground Step Functions console (accessible via Janus).
+
 ## Explanation of the Code
 
 ### Worker
